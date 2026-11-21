@@ -5,7 +5,7 @@ import { getBotName } from '../../lib/botname.js';
 
 const CONFIG_DB_KEY = 'autoreact_config';
 const DEFAULT_REACT_CONFIG = {
-    enabled: true,
+    enabled: false,
     onlyOnOwnerReply: false,
     viewMode: 'view+react',
     mode: 'fixed',
