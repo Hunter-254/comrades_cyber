@@ -24,7 +24,7 @@ function loadConfig() {
             return JSON.parse(fs.readFileSync(PRESENCE_FILE, 'utf8'));
         }
     } catch {}
-    return { enabled: false, mode: 'available', interval: 2 };
+    return { enabled: true, mode: 'available', interval: 2 };
 }
 
 function saveConfig(config) {
